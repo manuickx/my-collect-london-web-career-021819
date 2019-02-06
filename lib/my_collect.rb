@@ -8,6 +8,8 @@ def my_collect(array)
   new_array
 end
 
+students  = []
+
 my_collect(students) do |name| name.split(" ").first
 end
 
